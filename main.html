@@ -46,7 +46,7 @@
             <button class="btn btn-block btn-info">Day 6</button>
           </div>
           <div class="col-xs-3">
-            <button class="btn btn-block btn-danger">Unsubscribe</button>
+            <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i> Unsubscribe</button>
           </div>
         </div>
         <!-- an inline style will override all the classes and id's attached -->
@@ -89,14 +89,17 @@
           </form>
 
         <p>Have you been to these places?</p>
-          <label><input type="radio" name="country-choices">Spain</label>
-          <label><input type="radio" name="country-choices">Belgium</label>
-
+        <div class="row">
+          <div class="col-xs-3"><label><input type="radio" name="country-choices">Spain</label></div>
+          <div class="col-xs-3"><label><input type="radio" name="country-choices">Belgium</label></div>
+          <div class="col-xs-3"><label><input type="radio" name="country-choices">Denmark</label></div>
+          <div class="col-xs-3"><label><input type="radio" name="country-choices">Italy</label></div>
+        </div>
         <p>Check these places if you've been to them</p>
-
-          <label><input type="checkbox" name="city" checked>London</label>
-          <label><input type="checkbox" name="city">Paris</label>
-          <label><input type="checkbox" name="city">Amsterdam</label>
+        <div class="row">
+          <div class="col-xs-4"><label><input type="checkbox" name="city" checked>London</label></div>
+          <div class="col-xs-4"><label><input type="checkbox" name="city">Paris</label></div>
+          <div class="col-xs-4"><label><input type="checkbox" name="city">Amsterdam</label></div>
 
       </section>
     </div>
