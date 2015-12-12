@@ -18,11 +18,7 @@ p {
   border: 1px solid red;
 }
 
-.journal-one {
-  margin-left: 0;
-  margin-right: 0;
-  border: 3px solid black;
-}
+
 
 .places-list {
   background-color: gray;
@@ -30,4 +26,33 @@ p {
 
 #form {
   background-color: green;
+}
+
+/*Paragraphs*/
+
+.journal-one {
+  margin-left: 0;
+  margin-right: 0;
+  border: 3px solid black;
+}
+
+.journal-two {
+  padding: 2em;
+  margin-top: 1em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+.journal-three {
+  padding: 2vh;
+  margin-top: 3em;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+.journal-four {
+  padding: 2vw;
+  margin-top: 5em;
+  margin-left: 7em;
+  margin-right: 7em;
 }
