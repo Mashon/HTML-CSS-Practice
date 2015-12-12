@@ -1,8 +1,10 @@
 body {
-  background-color: teal;
+  background-color: ivory;
   color:white;
   font-family: monospace;
 }
+
+
 
 * {
   border: 1px solid blue;
@@ -22,6 +24,9 @@ p {
   margin-right: 20px;
   margin-left: 20px;
   border: 1px solid red;
+  /*a later element can override the original one given in body - here the color white above
+  is overridden by the tan because it comes later in the css file*/
+  color: tan;
 }
 
 
@@ -34,6 +39,15 @@ p {
   background-color: green;
 }
 
+/*Again overriding text color from above*/
+
+.red-text {
+  color:red;
+}
+
+.blue-text {
+  color:blue;
+}
 /*Paragraphs*/
 
 .journal-one {
