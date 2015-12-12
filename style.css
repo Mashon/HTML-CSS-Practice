@@ -78,3 +78,8 @@ p {
   margin-left: 7em;
   margin-right: 7em;
 }
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
