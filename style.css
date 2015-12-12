@@ -57,6 +57,7 @@ p {
   margin-left: 0;
   margin-right: 0;
   border: 3px solid black;
+
 }
 
 .journal-two {
@@ -64,6 +65,7 @@ p {
   margin-top: 1em;
   margin-right: 3em;
   margin-left: 3em;
+  color:black !important;
 }
 
 .journal-three {
