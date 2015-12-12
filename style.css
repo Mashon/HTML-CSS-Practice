@@ -1,0 +1,33 @@
+* {
+  border: 1px solid blue;
+}
+
+h1 {
+  color: gray;
+}
+
+h4 {
+  color: lightgray;
+}
+
+p {
+  font-family: "Poiret One", sans-serif;
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid red;
+}
+
+.journal-one {
+  margin-left: 0;
+  margin-right: 0;
+  border: 3px solid black;
+}
+
+.places-list {
+  background-color: gray;
+}
+
+#form {
+  background-color: green;
+}
